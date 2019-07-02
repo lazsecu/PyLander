@@ -146,6 +146,7 @@ class Game:
     def __init__(self):
         # Pygame initialization
         pygame.init()
+        pygame.display.set_caption('PyLander')
         pygame.font.init()
         self.screen = pygame.display.set_mode((WIDTH, HEIGHT))
         self.clock = pygame.time.Clock()
